@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "28090573738",
+    "project_id": "samudra-cusat",
+    "storage_bucket": "samudra-cusat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28090573738:android:64b63d3117ec6253df01d3",
+        "android_client_info": {
+          "package_name": "com.example.samudra_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB8RWxJPW5_egNurZ_GfOQwT3OanChvMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

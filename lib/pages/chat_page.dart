@@ -40,16 +40,18 @@ class _ChatPageState extends State<ChatPage> {
                     Container(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
                       height: 100,
-                      child: const Row(
+                      child: Row(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Icon(
-                            Icons.arrow_back,
-                            color: Color.fromRGBO(20, 17, 99, 1),
-                          ),
+                          IconButton(
+                              icon: Icon(Icons.arrow_back),
+                              onPressed: () {
+                                Navigator.pop(context);
+                              },
+                            ),
                           Text(
-                            'Chat Bot',
+                            'Chat Bots',
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 24,

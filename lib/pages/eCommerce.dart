@@ -26,7 +26,12 @@ class MyFishApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Fish Market'),
+        title: const Text("Marketplace"), centerTitle: true,
+        titleTextStyle: const TextStyle(
+          fontSize: 30.0,
+          color: Color.fromARGB(255, 12, 57, 124),
+          fontWeight: FontWeight.bold
+        ),
         ),
         body: ListView.builder(
           itemCount: fishList.length,
